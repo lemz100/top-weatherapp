@@ -94,6 +94,10 @@ body {
     padding: 4px;
     margin-top: 0;
 }
+.card-container h2 {
+    color: white;
+    padding: 4px;
+}
 .weather-daycard {
     font-family: "Schibsted Grotesk", sans-serif;
     border-radius: 2rem;
