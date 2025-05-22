@@ -6,10 +6,16 @@
     <title>Weather App</title>
 </head>
 <body>
-    <form>
-        <label for="city-name">City:</label>
-        <input type="text" name="city-name" id="city-name" required>
-        <button type="submit">Get City Weather</button>
-    </form>
+    <div id="form-container">       
+        <form>
+            <div id="form-section">
+                <label for="city-name">City:</label>
+                <input type="text" name="city-name" id="city-name" required>
+            </div>
+            <button type="submit">Get City Weather</button>
+        </form>
+    </div> 
+    <main id="weather-data-container">
+    </main>
 </body>
 </html>
