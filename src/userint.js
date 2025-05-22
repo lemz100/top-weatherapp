@@ -1,7 +1,6 @@
-const container = document.querySelector("#weather-data-container");
+const container = document.querySelector(".app");
 
 function populateWeatherCard(cityData) {
-    container.innerHTML = "";
     const weatherHeaderDiv = document.createElement("div");
     weatherHeaderDiv.id = "weather-header";
     const weatherHeader = document.createElement("h2");
